@@ -68,31 +68,52 @@ a:hover {
 #ellemagasin{
     height: 900px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(252, 250, 252);
+    align-items: center;
+}
+
+#bladet{
+    height: 700px;
+    width: auto;
+    margin: 100px;
 }
 
 #støtvia{
-    height: 100px;
+    height: 500px;
     width: 100%;
-    background-color: blue;
+    background-color: #FFE6FF;
 }
 
 #nyheder{
-    height: 100px;
-    width: 100%;
-    background-color: red;
+    height: 957px;
+    width: auto;
+    background-color: rgb(252, 250, 252);
+}
+#nyhederbillede{
+    height: 957px;
+    width: auto;
 }
 
 #gårtil{
-    height: 100px;
+    height: 700px;
     width: 100%;
-    background-color: blue;
+    background-color: #FDDFEE;
 }
 
 #kommendeevent{
-    height: 100px;
+    display: flex;
+    height: 800px;
     width: 100%;
-    background-color: red;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 250, 252);
+}
+
+#flereevents{
+    height: 500px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 #om{
@@ -114,7 +135,12 @@ a:hover {
 }
 
 footer{
-    height: 100px;
+    height: 555px;
     width: 100%;
-    background-color: blue;
+    background-color: #FFE6FF;
+}
+
+#footerpng{
+    height: 555px;
+    width: auto;
 }
