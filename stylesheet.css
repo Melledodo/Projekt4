@@ -50,9 +50,14 @@ a:hover {
 }
 
 #forsidebanner{
-    height: 100px;
+    height: 600px;
     width: 100%;
     background-color: blue;
+}
+
+#banner{
+    height: 600px;
+    width: 100%;
 }
 
 #ellemagasin{
