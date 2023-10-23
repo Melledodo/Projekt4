@@ -8,16 +8,25 @@ html { scroll-behavior: smooth; }
 }
 
 header {
+    height: 75px;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: rgb(252, 250, 252);
+}
+
+#logo1{
+    height: 28px;
+    width: 228px;
+    justify-content: left;
+    display: flex;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 75px;
     position: sticky;
 }
 
