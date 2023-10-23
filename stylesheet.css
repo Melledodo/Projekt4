@@ -11,7 +11,6 @@ header {
     height: 75px;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: rgb(255, 255, 255);
 }
 
@@ -20,19 +19,19 @@ header {
     width: 228px;
     justify-content: left;
     display: flex;
+    margin-left: 10px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-left: 700px;
     height: 75px;
-    position: sticky;
 }
 
 ul, li {
     list-style: none;
-    padding: 15px;
+    padding: 35px;
     display: flex;
     justify-content: space-evenly;
     color: #030303;
