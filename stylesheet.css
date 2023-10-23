@@ -9,16 +9,41 @@ html { scroll-behavior: smooth; }
 
 header {
     display: flex;
+    justify-content: center;
+    background-color: rgb(252, 250, 252);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+}
+
+ul, li {
+    list-style: none;
+    padding: 15px;
+    display: flex;
     justify-content: space-evenly;
-    height: 50px;
-    width: 100%;
-    color: blueviolet;
+    color: #030303;
+    font-size: 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none; 
+    color: #030303
+}
+
+a:hover {
+    color: #FF0098;
 }
 
 #forsidebanner{
     height: 100px;
     width: 100%;
-    color: blue;
+    background-color: blue;
 }
 
 #ellemagasin{
