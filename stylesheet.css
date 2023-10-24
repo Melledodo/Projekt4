@@ -74,25 +74,31 @@ a:hover {
 
 #tekstkasse{
     height: 750px;
-    width: 600px;
+    width: 800px;
     margin-top: 50px;
     border: #030303 solid;
     justify-content: center;
     align-items: center;
 }
 
-.magasinoverskrift{
-    font-size: 60px;
+#magasinoverskrift{
+    font-size: 30px;
+    justify-content: center;
+    letter-spacing: 2px;
 }
 
-.magasinunderoverskrift{
-    font-size: 40px;
+#magasinunderoverskrift{
+    font-size: 25px;
     margin: 40px;
+    justify-content: center;
+    letter-spacing: 2px;
 }
 
-.magasintekst{
+#magasintekst{
     font-size: 20;
     padding: 50px;
+    letter-spacing: 3px;
+    line-height: 1.8;
 }
 
 #bladet{
