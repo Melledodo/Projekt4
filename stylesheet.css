@@ -135,6 +135,53 @@ a:hover {
     height: 1000px;
     width: 100%;
     background-color: #FFE6FF;
+    display: flex;
+
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#boblekasse{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#trine{
+    height: 700px;
+    width: 350px;
+    border: #030303 solid;
+    margin: 25px;
+}
+
+#camilla{
+    height: 700px;
+    width: 350px;
+    border: #030303 solid;
+    margin: 25px;
+}
+
+#charlotte{
+    height: 700px;
+    width: 350px;
+    border: #030303 solid;
+    margin: 25px;
+}
+
+#lærke{
+    height: 700px;
+    width: 350px;
+    border: #030303 solid;
+    margin: 25px;
+}
+
+.boble{
+    height: auto;
+    width: 350px;
 }
 
 #kort{
