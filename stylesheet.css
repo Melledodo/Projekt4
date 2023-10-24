@@ -22,6 +22,13 @@ header {
     margin-left: 10px;
 }
 
+#kurv{
+    height: 45px;
+    width: auto;
+    display: flex;
+    margin-left: 200px;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -74,9 +81,8 @@ a:hover {
 
 #tekstkasse{
     height: 750px;
-    width: 800px;
+    width: 950px;
     margin-top: 50px;
-    border: #030303 solid;
     justify-content: center;
     align-items: center;
 }
@@ -84,21 +90,26 @@ a:hover {
 #magasinoverskrift{
     font-size: 30px;
     justify-content: center;
+    margin-top: 50px;
     letter-spacing: 2px;
 }
 
 #magasinunderoverskrift{
-    font-size: 25px;
-    margin: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
     justify-content: center;
     letter-spacing: 2px;
 }
 
 #magasintekst{
     font-size: 20;
-    padding: 50px;
+    margin-top: 110px;
+    padding: 20px;
+    text-align: center;
     letter-spacing: 3px;
     line-height: 1.8;
+    word-spacing: 5px;
 }
 
 #bladet{
