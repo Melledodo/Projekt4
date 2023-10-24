@@ -69,6 +69,30 @@ a:hover {
     width: 100%;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    display: flex;
+}
+
+#tekstkasse{
+    height: 750px;
+    width: 600px;
+    margin-top: 50px;
+    border: #030303 solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.magasinoverskrift{
+    font-size: 60px;
+}
+
+.magasinunderoverskrift{
+    font-size: 40px;
+    margin: 40px;
+}
+
+.magasintekst{
+    font-size: 20;
+    padding: 50px;
 }
 
 #bladet{
@@ -81,6 +105,30 @@ a:hover {
     height: 500px;
     width: 100%;
     background-color: #FFE6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betalingsmulighederkasser{
+    height: 400px;
+    width: 300px;
+    margin: 70px;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.betalingsmuligheder{
+    height:250px;
+    width: auto;
+    display: flex;
+    position: absolute;
+}
+
+.støtbesked{
+    font-size: 25px;
+    margin-top: 275px;
 }
 
 #nyheder{
