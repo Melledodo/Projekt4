@@ -164,13 +164,30 @@ a:hover {
     background-color: #FDDFEE;
     display: flex;
     justify-content: center;
-    align-items: end;
+}
+
+#gårtiloverskrift{
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#gårtilovertekst{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
 }
 
 .gårtilkasser{
     height: 600px;
     width: 500px;
-    border: #030303 solid;
     display: flex;
 
 }
@@ -182,7 +199,7 @@ a:hover {
     line-height: 1.8;
     word-spacing: 5px;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 50px;
 }
 
@@ -192,7 +209,7 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-    margin-top: 200px;
+    margin-top: 250px;
     padding: 30px;
 }
 
