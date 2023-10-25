@@ -92,6 +92,7 @@ a:hover {
     justify-content: center;
     margin-top: 50px;
     letter-spacing: 2px;
+    display: flex;
 }
 
 #magasinunderoverskrift{
@@ -167,8 +168,7 @@ a:hover {
 }
 
 #gårtiloverskrift{
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 30px;
     position: absolute;
     margin-top: 50px;
     letter-spacing: 3px;
@@ -234,9 +234,48 @@ a:hover {
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    justify-content: right;
+    justify-content: center;
+}
+
+#omkasse{
+    height: 500px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#omoverskrift{
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#omunderoverskrift{
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-top: 90px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#omtekst{
+    font-size: 15px;
+    justify-content: center;
     align-items: center;
-    margin-left: -40px;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
 }
 
 #tegning{
@@ -246,56 +285,96 @@ a:hover {
 }
 
 #girltalk{
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background-color: #FFE6FF;
     display: flex;
-
+    justify-content: center;
 }
 
-h2{
+#girltalkoverskrift{
+    font-size: 40px;
     justify-content: center;
     align-items: center;
     display: flex;
+    position: absolute;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#girltalkovertekst{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
 }
 
 #boblekasse{
     display: flex;
     justify-content: center;
-    align-items: end;
+    margin-top: 250px;
 }
 
 #trine{
     height: 700px;
     width: 350px;
-    border: #030303 solid;
     margin: 25px;
 }
 
 #camilla{
     height: 700px;
     width: 350px;
-    border: #030303 solid;
     margin: 25px;
 }
 
 #charlotte{
     height: 700px;
     width: 350px;
-    border: #030303 solid;
     margin: 25px;
 }
 
 #lærke{
     height: 700px;
     width: 350px;
-    border: #030303 solid;
     margin: 25px;
 }
 
 .boble{
     height: auto;
     width: 350px;
+}
+
+.navne{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+.bobletekst{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
 }
 
 #kort{
