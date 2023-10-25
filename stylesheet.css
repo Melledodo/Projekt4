@@ -162,6 +162,38 @@ a:hover {
     height: 700px;
     width: 100%;
     background-color: #FDDFEE;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.gårtilkasser{
+    height: 600px;
+    width: 500px;
+    border: #030303 solid;
+    display: flex;
+
+}
+
+.gårtiltal{
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    position: absolute;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.gårtiltekst{
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    margin-top: 200px;
+    padding: 30px;
 }
 
 #kommendeevent{
