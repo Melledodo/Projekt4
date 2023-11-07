@@ -55,8 +55,7 @@ a:hover {
     color: #FF0098;
 }
 
-#forsidebanner1{
-    height: 600px;
+#forsidebanner{
     width: 100%;
     background-color: rgb(255, 255, 255);
 }
@@ -84,14 +83,7 @@ a:hover {
       height: auto;
   }
 
-#forsidebanner2{
-    height: 600px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-
 #banner{
-    height: 600px;
     width: 100%;
 }
 
