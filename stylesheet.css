@@ -538,3 +538,28 @@ footer{
     height: 555px;
     width: auto;
 }
+
+/* Lisbet */
+#h2{
+    font-size: 30px;
+    position: absolute;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#buttononclick{
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+#demo{
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}

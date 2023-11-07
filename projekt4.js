@@ -35,6 +35,17 @@ function showSlides() {
   setTimeout(showSlides, 3000); // skift billede hvert 3 sek
 }
 
+//Lisbet//
+
+function myFunction() {
+  var txt;
+  if (confirm("Vil du tilmeldes nyhedsbrev?")) {
+    txt = "Du er nu tilmeldt nyhedsbrev!";
+  } else {
+    txt = "Du er ikke tilmeldt nyhedsbrev";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
 // Michelle
 const buttons = document.querySelectorAll("button.button");
 const modals = document.querySelectorAll("dialog.modal");
