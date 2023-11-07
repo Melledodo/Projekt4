@@ -15,57 +15,60 @@ body {
     font-family: "didot";
   }
 
-header {
+  header {
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
-}
-
-#logo{
+  }
+  
+  #logo{
     height: 28px;
     width: 228px;
     justify-content: left;
     display: flex;
-    margin-right: 150px;
-}
-
-#kurv{
+    margin-left: 40px;
+  }
+  
+  #kurv{
     height: 45px;
     width: auto;
     display: flex;
-    margin-right: 250px;
-}
-
-nav {
+  }
+  
+  nav {
     display: flex;
-    justify-content: center;
-    margin-left: 500px;
+    margin-left: 590px;
     height: 75px;
-    position: sticky;
-}
-
-ul, li {
+  }
+  
+  ul, li {
     list-style: none;
-    padding: 35px;
+    padding-right: 70px;
     display: flex;
     justify-content: space-evenly;
     color: #030303;
     font-size: 16px;
     align-items: center;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none; 
     color: #030303
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #FF0098;
-}
-
-
-
-.slideshow-container {
+  }
+  
+  
+  
+  
+  
+  body {
+      margin: 0px;
+  }
+  
+  .slideshow-container {
     position: relative;
   }
   
@@ -87,204 +90,216 @@ a:hover {
       width: 100%;
       height: auto;
   }
-
-#banner{
-    width: 100%;
-}
-
-#ellemagasin{
+  
+  #magasin-sektion {
     height: 900px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
     display: flex;
-}
-
-#tekstkasse{
+  }
+  
+  #magasin {
+    height: 700px;
+    width: auto;
+    margin: 100px;
+  }
+  
+  #tekstkasse {
     height: 750px;
     width: 950px;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-}
-
-#magasinoverskrift{
+    padding-right: 100px;
+  }
+  
+  #magasin-overskrift {
     font-size: 30px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
     letter-spacing: 2px;
     display: flex;
-}
-
-#magasinunderoverskrift{
+  }
+  
+  #magasin-underoverskrift {
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
     letter-spacing: 2px;
-}
-
-#magasintekst{
+  }
+  
+  #magasintekst {
     font-size: 20;
-    margin-top: 110px;
+    margin-top: 50px;
     padding: 20px;
     text-align: center;
-    letter-spacing: 3px;
-    line-height: 1.8;
+    letter-spacing: 1px;
+    line-height: 2;
     word-spacing: 5px;
-}
-
-#bladet{
-    height: 700px;
-    width: auto;
-    margin: 100px;
-}
-
-#støtvia{
-    height: 500px;
+  }
+  
+  #støt-sektion {
+    height: 350px;
     width: 100%;
     background-color: #FFE6FF;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.betalingsmulighederkasser{
-    height: 400px;
-    width: 300px;
-    margin: 70px;
+  }
+  
+  #støt-overskrift {
+    font-size: 30px;
+    justify-content: center;
+    letter-spacing: 2px;
+    display: flex;
+  }
+  
+  .betalingsmulighederkasser {
+    width: 200px;
+    margin: 90px;
     justify-content: center;
     display: flex;
     margin-top: 150px;
-}
-
-.betalingsmuligheder{
-    height:250px;
+  }
+  
+  .betalingsmuligheder {
+    height:150px;
     width: auto;
     display: flex;
     position: absolute;
-}
-
-.støtbesked{
-    font-size: 25px;
-    margin-top: 275px;
-}
-
-#nyheder{
-    height: 957px;
+  }
+  
+  .støt-sms {
+    font-size: 20px;
+    margin-top: 200px;
+    padding-right: 40px;
+  }
+  
+  .støt-betaling {
+    font-size: 20px;
+    margin-top: 200px;
+  }
+  
+  #nyheder-overskrift {
+    font-size: 30px;
+    justify-content: center;
+    letter-spacing: 2px;
+    display: flex;
+    margin-top: 80px;
+  }
+  
+  #nyheder-sektion {
+    height: 600px;
     width: auto;
-    background-color: rgb(255, 255, 255);
-}
-
-.galleri{
+    margin-top: 50px;
+  }
+  
+  .galleri{
     width: 900px;
     display: flex;
     overflow: scroll;
-}
-
-.galleri div{
+  }
+  
+  .galleri div{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     padding: 10px;
     flex: none;
-}
-.galleri div img{
+  }
+  .galleri div img{
     width: 100%;
     filter: grayscale(100%); 
     transition: transform 0.5s;
-
-}
-.galleri::-webkit-scrollbar{
+  
+  }
+  .galleri::-webkit-scrollbar{
     display: none;
-}
-.galleri-wrap{
+  }
+  .galleri-wrap{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% auto;
-}
-#backBtn, #nextBtn{
+    
+  }
+  #backBtn, #nextBtn{
     width: 50px;
     cursor: pointer;
     margin: 40px;
-}
-.galleri div img:hover{
+  }
+  .galleri div img:hover{
     filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
-}
-
-#gårtil{
-    height: 700px;
+  }
+  
+  #gårtil-sektion {
+    height: 580px;
     width: 100%;
     background-color: #FDDFEE;
     display: flex;
     justify-content: center;
-}
-
-#gårtiloverskrift{
+  }
+  
+  #gårtil-overskrift{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
-    letter-spacing: 3px;
+    margin-top: 35px;
+    letter-spacing: 2px;
     line-height: 1.8;
     word-spacing: 5px;
-}
-
-#gårtilovertekst{
+  }
+  
+  #gårtil-underovertekst{
     font-size: 20px;
     position: absolute;
     margin-top: 100px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     line-height: 1.8;
     word-spacing: 5px;
-}
-
-.gårtilkasser{
+  }
+  
+  .gårtilkasser{
     height: 600px;
     width: 500px;
     display: flex;
-
-}
-
-.gårtiltal{
+  
+  }
+  
+  .gårtiltal{
     font-size: 40px;
-    text-align: left;
-    letter-spacing: 3px;
-    line-height: 1.8;
-    word-spacing: 5px;
     position: absolute;
     margin-top: 150px;
     padding: 50px;
-}
-
-.gårtiltekst{
+    margin-left: 50px;
+  }
+  
+  .gårtiltekst{
     font-size: 17px;
-    text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     line-height: 1.8;
-    word-spacing: 5px;
+    word-spacing: 3px;
     margin-top: 250px;
     padding: 30px;
-}
-
-#kommendeevent{
+    margin-left: 60px;
+  }
+  
+  #kommendeevent{
     display: flex;
     height: 800px;
     width: 100%;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-}
-
-#flereevents{
-    height: 500px;
+  }
+  
+  #flereevents{
+    height: 400px;
     width: auto;
     justify-content: center;
     align-items: center;
-}
+  }
 
 #om{
     display: flex;
