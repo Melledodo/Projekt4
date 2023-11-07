@@ -154,9 +154,46 @@ a:hover {
     width: auto;
     background-color: rgb(255, 255, 255);
 }
-#nyhederbillede{
-    height: 957px;
-    width: auto;
+
+body{
+    .galleri{
+        width: 900px;
+        display: flex;
+        overflow: scroll;
+    }
+}
+.galleri div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.galleri div img{
+    width: 100%;
+    filter: grayscale(100%); 
+    transition: transform 0.5s;
+
+}
+.galleri::-webkit-scrollbar{
+    display: none;
+}
+.galleri-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+.galleri div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 #gårtil{
