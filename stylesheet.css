@@ -349,9 +349,9 @@ a:hover {
     background-color: #FFE6FF;
     display: flex;
     justify-content: center;
-}
-
-#girltalkoverskrift{
+  }
+  
+  #girltalkoverskrift{
     font-size: 40px;
     justify-content: center;
     align-items: center;
@@ -362,9 +362,9 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-}
-
-#girltalkovertekst{
+  }
+  
+  #girltalkovertekst{
     font-size: 15px;
     justify-content: center;
     align-items: center;
@@ -375,44 +375,44 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-}
-
-#boblekasse{
+  }
+  
+  #boblekasse{
     display: flex;
     justify-content: center;
     margin-top: 250px;
-}
-
-#trine{
+  }
+  
+  #trine{
     height: 700px;
     width: 350px;
     margin: 25px;
-}
-
-#camilla{
+  }
+  
+  #camilla{
     height: 700px;
     width: 350px;
     margin: 25px;
-}
-
-#charlotte{
+  }
+  
+  #charlotte{
     height: 700px;
     width: 350px;
     margin: 25px;
-}
-
-#lærke{
+  }
+  
+  #lærke{
     height: 700px;
     width: 350px;
     margin: 25px;
-}
-
-.boble{
+  }
+  
+  .boble{
     height: auto;
     width: 350px;
-}
-
-.navne{
+  }
+  
+  .navne{
     font-size: 20px;
     justify-content: center;
     align-items: center;
@@ -422,9 +422,9 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-}
-
-.button {
+  }
+  
+  .button {
     background-color: #f12f8d;
     color: #000000;
     padding: 10px 25px;

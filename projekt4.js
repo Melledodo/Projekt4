@@ -36,7 +36,6 @@ function showSlides() {
 }
 
 // Michelle
-
 const buttons = document.querySelectorAll("button.button");
 const modals = document.querySelectorAll("dialog.modal");
 const closes = document.querySelectorAll(".modal__close");
