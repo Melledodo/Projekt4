@@ -12,35 +12,36 @@ body {
     display: grid;
     place-items: center;
     font: 18px / 1.5 sans-serif;
+    font-family: "didot";
   }
 
 header {
-    height: 75px;
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
-#logo1{
+#logo{
     height: 28px;
     width: 228px;
     justify-content: left;
     display: flex;
-    margin-left: 10px;
+    margin-right: 150px;
 }
 
 #kurv{
     height: 45px;
     width: auto;
     display: flex;
-    margin-left: 200px;
+    margin-right: 250px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    margin-left: 700px;
+    margin-left: 500px;
     height: 75px;
+    position: sticky;
 }
 
 ul, li {
@@ -62,10 +63,7 @@ a:hover {
     color: #FF0098;
 }
 
-#forsidebanner{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
+
 
 .slideshow-container {
     position: relative;
@@ -383,33 +381,16 @@ a:hover {
     margin-top: 250px;
   }
   
-  #trine{
+  #influencer{
     height: 700px;
-    width: 350px;
+    width: 270px;
     margin: 25px;
   }
   
-  #camilla{
-    height: 700px;
-    width: 350px;
-    margin: 25px;
-  }
-  
-  #charlotte{
-    height: 700px;
-    width: 350px;
-    margin: 25px;
-  }
-  
-  #lærke{
-    height: 700px;
-    width: 350px;
-    margin: 25px;
-  }
-  
+
   .boble{
     height: auto;
-    width: 350px;
+    width: 250px;
   }
   
   .navne{
@@ -419,8 +400,7 @@ a:hover {
     display: flex;
     margin-top: 15px;
     text-align: center;
-    letter-spacing: 3px;
-    line-height: 1.8;
+    letter-spacing: 1px;
     word-spacing: 5px;
   }
   
