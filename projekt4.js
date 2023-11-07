@@ -86,5 +86,3 @@ modals.forEach((modal) => {
     }
   });
 });
-
-//Lisbet
