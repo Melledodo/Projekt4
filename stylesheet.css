@@ -60,6 +60,30 @@ a:hover {
     width: 100%;
     background-color: rgb(255, 255, 255);
 }
+
+.slideshow-container {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  img {
+      width: 100%;
+      height: auto;
+  }
+
 #forsidebanner2{
     height: 600px;
     width: 100%;
@@ -155,13 +179,12 @@ a:hover {
     background-color: rgb(255, 255, 255);
 }
 
-body{
-    .galleri{
-        width: 900px;
-        display: flex;
-        overflow: scroll;
-    }
+.galleri{
+    width: 900px;
+    display: flex;
+    overflow: scroll;
 }
+
 .galleri div{
     width: 100%;
     display: grid;
