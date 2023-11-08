@@ -1,0 +1,512 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#logo{
+  height: 28px;
+  width: 228px;
+  justify-content: left;
+  display: flex;
+  margin-left: 40px;
+}
+
+nav {
+  display: flex;
+  margin-left: 670px;
+  height: 75px;
+}
+
+ul, li {
+  list-style: none;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #030303;
+  font-size: 16px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none; 
+  color: #030303
+}
+
+a:hover {
+  color: #FF0098;
+}
+
+
+
+
+
+body {
+    margin: 0px;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#magasin-sektion {
+  height: 900px;
+  width: 100%;
+  display: flex;
+}
+
+#magasin {
+  height: 700px;
+  width: auto;
+  margin: 100px;
+}
+
+#tekstkasse {
+  height: 750px;
+  width: 950px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 100px;
+}
+
+#magasin-overskrift {
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  display: flex;
+}
+
+#magasin-underoverskrift {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+#magasintekst {
+  font-size: 20;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2;
+  word-spacing: 5px;
+}
+
+#støt-sektion {
+  height: 350px;
+  width: 100%;
+  background-color: #FFE6FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#støt-overskrift {
+  font-size: 30px;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+}
+
+.betalingsmulighederkasser {
+  width: 200px;
+  margin: 90px;
+  justify-content: center;
+  display: flex;
+  margin-top: 150px;
+}
+
+.betalingsmuligheder {
+  height:150px;
+  width: auto;
+  display: flex;
+  position: absolute;
+}
+
+.støt-sms {
+  font-size: 20px;
+  margin-top: 200px;
+  padding-right: 40px;
+}
+
+.støt-betaling {
+  font-size: 20px;
+  margin-top: 200px;
+}
+
+#nyheder-overskrift {
+  font-size: 30px;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+  margin-top: 80px;
+}
+
+#nyheder-sektion {
+  height: 600px;
+  width: auto;
+  margin-top: 50px;
+}
+
+.galleri{
+  width: 900px;
+  display: flex;
+  overflow: scroll;
+}
+
+.galleri div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.galleri div img{
+  width: 100%;
+  filter: grayscale(100%); 
+  transition: transform 0.5s;
+
+}
+.galleri::-webkit-scrollbar{
+  display: none;
+}
+.galleri-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#backBtn, #nextBtn{
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
+}
+.galleri div img:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#gårtil-sektion {
+  height: 580px;
+  width: 100%;
+  background-color: #FDDFEE;
+  display: flex;
+  justify-content: center;
+}
+
+#gårtil-overskrift{
+  font-size: 30px;
+  position: absolute;
+  margin-top: 35px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+#gårtil-underovertekst{
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+.gårtilkasser{
+  height: 600px;
+  width: 500px;
+  display: flex;
+
+}
+
+.gårtiltal{
+  font-size: 40px;
+  position: absolute;
+  margin-top: 150px;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.gårtiltekst{
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 3px;
+  margin-top: 250px;
+  padding: 30px;
+  margin-left: 60px;
+}
+
+#kommendeevent{
+  display: flex;
+  height: 800px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#flereevents{
+  height: 400px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#om-sektion {
+  display: flex;
+  height: 570px;
+  width: 100%;
+}
+
+#om-kasse{
+  height: 500px;
+  width: auto;
+  justify-content: center;
+  display: flex;
+}
+
+#omoverskrift{
+  font-size: 40px;
+  position: absolute;
+  margin-top: 70px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#omunderoverskrift{
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin-top: 140px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#omtekst{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 220px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2.2;
+  word-spacing: 3px;
+  padding: 100px;
+}
+
+#tegning{
+  display: flex;
+  height: 420px;
+  width: auto;
+  margin-top: 90px;
+  margin-right: 170px;
+}
+
+
+
+#girltalk{
+  height: 1100px;
+  width: 100%;
+  background-color: #FDDFEE;
+  display: flex;
+  justify-content: center;
+}
+
+#girltalkoverskrift{
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+#girltalkovertekst{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  margin-top: 160px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2;
+  word-spacing: 5px;
+}
+
+#boblekasse{
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+#influencer{
+  height: 700px;
+  width: 270px;
+  margin: 25px;
+}
+
+
+.boble{
+  height: auto;
+  width: 250px;
+}
+
+.navne{
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 5px;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #f12f8d;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  margin-left: 50px;
+}
+.button:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.modal {
+  border: 0;
+  background-color: transparent;
+  padding: 20px;
+  transition: all 300ms ease-in-out;
+}
+.modal[aria-state="closed"] {
+  opacity: 0;
+}
+.modal[aria-state="open"] {
+  opacity: 1;
+}
+.modal[aria-state="closed"]::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+}
+.modal[aria-state="open"]::backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.kassen {
+  width: 800px;
+  height: 500px;
+  position: relative;
+  padding: 20px;
+  background-color: #FFE6FF;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.helbillede{
+  height: 485px;
+  width: 330px;
+  position: absolute;
+}
+.navne2{
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 450px;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+.tekstkassehel{
+  margin-left: 350px;
+  height: 500px;
+  width: 400px;
+  border: solid #000000;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+.modal__close {
+  --size: 28px;
+  position: absolute;
+  top: calc(var(--size) / 2 * -1);
+  right: calc(var(--size) / 2 * -1);
+  border: 0;
+  background: #000000;
+  color: #fff;
+  font-weight: bold;
+  width: var(--size);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/* Lisbet */
+#h2{
+  font-size: 30px;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+#buttononclick{
+  font-size: 20px;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+#demo{
+  font-size: 20px;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
