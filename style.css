@@ -335,7 +335,7 @@ img {
 
 
 #girltalk{
-  height: 1100px;
+  height: 900px;
   width: 100%;
   background-color: #FDDFEE;
   display: flex;
@@ -443,6 +443,8 @@ img {
   height: 485px;
   width: 330px;
   position: absolute;
+  margin-left: 50px;
+  margin-top: -8px;
 }
 .navne2{
   position: absolute;
@@ -454,10 +456,9 @@ img {
 }
 
 .tekstkassehel{
-  margin-left: 350px;
+  margin-left: 400px;
   height: 500px;
   width: 400px;
-  border: solid #000000;
   font-size: 15px;
   justify-content: center;
   align-items: center;
