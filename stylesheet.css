@@ -12,36 +12,35 @@ body {
     display: grid;
     place-items: center;
     font: 18px / 1.5 sans-serif;
-    font-family: "didot";
   }
 
 header {
+    height: 75px;
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
-#logo{
+#logo1{
     height: 28px;
     width: 228px;
     justify-content: left;
     display: flex;
-    margin-right: 150px;
+    margin-left: 10px;
 }
 
 #kurv{
     height: 45px;
     width: auto;
     display: flex;
-    margin-right: 250px;
+    margin-left: 200px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 700px;
     height: 75px;
-    position: sticky;
 }
 
 ul, li {
@@ -63,7 +62,10 @@ a:hover {
     color: #FF0098;
 }
 
-
+#forsidebanner{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
 
 .slideshow-container {
     position: relative;
@@ -347,9 +349,9 @@ a:hover {
     background-color: #FFE6FF;
     display: flex;
     justify-content: center;
-  }
-  
-  #girltalkoverskrift{
+}
+
+#girltalkoverskrift{
     font-size: 40px;
     justify-content: center;
     align-items: center;
@@ -360,9 +362,9 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-  }
-  
-  #girltalkovertekst{
+}
+
+#girltalkovertekst{
     font-size: 15px;
     justify-content: center;
     align-items: center;
@@ -373,27 +375,44 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-  }
-  
-  #boblekasse{
+}
+
+#boblekasse{
     display: flex;
     justify-content: center;
     margin-top: 250px;
-  }
-  
-  #influencer{
-    height: 700px;
-    width: 270px;
-    margin: 25px;
-  }
-  
+}
 
-  .boble{
+#trine{
+    height: 700px;
+    width: 350px;
+    margin: 25px;
+}
+
+#camilla{
+    height: 700px;
+    width: 350px;
+    margin: 25px;
+}
+
+#charlotte{
+    height: 700px;
+    width: 350px;
+    margin: 25px;
+}
+
+#lærke{
+    height: 700px;
+    width: 350px;
+    margin: 25px;
+}
+
+.boble{
     height: auto;
-    width: 250px;
-  }
-  
-  .navne{
+    width: 350px;
+}
+
+.navne{
     font-size: 20px;
     justify-content: center;
     align-items: center;
@@ -403,9 +422,9 @@ a:hover {
     letter-spacing: 3px;
     line-height: 1.8;
     word-spacing: 5px;
-  }
-  
-  .button {
+}
+
+.button {
     background-color: #f12f8d;
     color: #000000;
     padding: 10px 25px;
